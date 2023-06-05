@@ -1,13 +1,15 @@
-.flex-container {
-display: flex;
-background-color: blueviolet;
+h1 {
+    border: 1px solid black;
+    background: blueviolet;
+    background-size: 250px 120px;
+    background-repeat: no-repeat;
+    padding: 15px;
 }
-
-
-.flex-container> ul {
-    float: right;
-    padding-right: 20px;
-    margin: 10px;
-    font-size: medium;
-    flex-wrap: wrap;
+id  { (0, 1, 2, 3)   
+    border: 1px solid black;
+    background: blueviolet;
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+    padding: 15px;
+    justify-content: right;
 }
