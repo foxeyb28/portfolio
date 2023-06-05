@@ -1,0 +1,13 @@
+.flex-container {
+display: flex;
+background-color: blueviolet;
+}
+
+
+.flex-container> ul {
+    float: right;
+    padding-right: 20px;
+    margin: 10px;
+    font-size: medium;
+    flex-wrap: wrap;
+}
